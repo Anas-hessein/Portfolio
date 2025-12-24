@@ -18,10 +18,10 @@ function Hero() {
                 <p className="sub-title">STEM High Schooler, Grade 11 Student, a little bit missy, Jack of all Trades, Web developer with intrest in physics and engnerinng. </p>
 
                 <div className="al-icons flx">
-                    <div className="icon icon-instagram"><a href="https://www.instagram.com/ans_hesein/"></a></div>
-                    <div className="icon icon-facebook-square"><a href="https://www.facebook.com/anas.hessen.2025"></a></div>
-                    <div className="icon icon-linkedin-square"><a href="https://www.linkedin.com/in/anas-hessin/"></a></div>
-                    <div className="icon icon-github"><a href="https://github.com/Anas-hessein/"></a></div>
+                    <a href="https://www.instagram.com/ans_hesein/" target="_blank" className="icon icon-instagram"></a>
+                    <a href="https://www.facebook.com/anas.hessen.2025" target="_blank" className="icon icon-facebook-square"></a>
+                    <a href="https://www.linkedin.com/in/anas-hessin/" target="_blank" className="icon icon-linkedin-square"></a>
+                    <a href="https://github.com/Anas-hessein/" target="_blank" className="icon icon-github"></a>
                 </div>
             </div>
 
