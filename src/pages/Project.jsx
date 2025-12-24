@@ -8,12 +8,13 @@ const Project = () => {
       <Header />
       <main style={{ padding: '2rem', minHeight: '60vh' }}>
         <h1>Project</h1>
+        <br></br>
         <p>
-          Welcome to my portfolio! I'm a passionate developer with expertise in 
-          modern web technologies.
+          Welcome to my portfolio! 
         </p>
-        <p>
-          asd,hghaksdajhklgasukdh
+        <br></br>
+        <p> 
+          Up Comming
         </p>
       </main>
       <div className="dvdr" />

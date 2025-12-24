@@ -8,8 +8,13 @@ const Speaking = () => {
       <Header />
       <main style={{ padding: '2rem', minHeight: '60vh' }}>
         <h1>Speaking</h1>
+        <br></br>
         <p>
-          Welcome to my speaking page.
+          Welcome to my portfolio! 
+        </p>
+        <br></br>
+        <p> 
+          Up Comming
         </p>
       </main>
       <div className="dvdr" />

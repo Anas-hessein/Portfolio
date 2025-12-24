@@ -8,14 +8,11 @@ const About = () => {
       <Header />
       <main style={{ padding: '2rem', minHeight: '60vh' }}>
         <h1>About Me</h1>
+        <br></br>
         <p>
-          Welcome to my portfolio! I'm a passionate developer with expertise in 
-          modern web technologies.
+          hi, I'm Anas. I'm 16 years old. I'm single. I'm form Egypt. I'm High Schooler in grade 11. I'm in STEM School for Boys at 6 of Octotber. It's the school i have learned from alot in a little time. I have worked as a Goldsmith with y Father for some time.
         </p>
-        <p>
-          This is your About page. You can customize this content with your own 
-          information, skills, experience, and anything else you'd like to share.
-        </p>
+
       </main>
       <div className="dvdr" />
       <Footer />
