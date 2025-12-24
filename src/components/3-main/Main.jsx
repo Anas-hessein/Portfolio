@@ -90,7 +90,7 @@ const Main = () => {
         {arr.map((item) => {
           return (
             <article key={item.imgPath} className="card">
-              <img width={266} src={item.imgPath} alt="" />
+              <img width={266} src={import.meta.env.BASE_URL + item.imgPath.replace(/^\//, '')} alt="" />
 
               <div style={{ width: "266px" }} className="box">
                 <h1 className="title">{item.projectTitle}</h1>
