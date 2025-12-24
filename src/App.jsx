@@ -6,7 +6,7 @@ import Project from './pages/Project'
 import Speaking from './pages/Speaking'
 
 function App() {
-  const basename = import.meta.env.MODE === 'production' ? '/React-portfolio' : '';
+  const basename = import.meta.env.MODE === 'production' ? '/Portfolio' : '';
   
   return (
     <Router basename={basename}>
