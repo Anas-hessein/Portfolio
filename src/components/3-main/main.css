@@ -1,0 +1,147 @@
+
+/* ===================================
+table of ocntent
+======================================
+
+1-left section ==> buttons 
+2-right section ==> projects
+3-responsive 
+*/
+
+main.flx {
+    gap: 2.6rem;
+    align-items: start;
+}
+
+
+/* left section ==> buttons */
+
+main section.left-sec.flx{
+    flex-direction: column;
+    gap: 10px;  
+}
+
+main section.left-sec.flx button {
+    background-color: rgba(36, 37, 46, 1);
+    width: 11rem;
+    padding: 0.75rem 0;
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    opacity: 0.5;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main section.left-sec.flx button:hover {
+    opacity: 1;
+
+}
+
+main section.left-sec.flx button.active {
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 0.8rem 0;
+    border: 1px solid var(--blu);
+
+}
+
+.light main section.left-sec.flx button.active {
+    border: 1px solid #000; 
+}
+
+/* right section ==> projects */
+
+main section.right-sec.flx{
+    flex-wrap:wrap;
+    column-gap: 16px;
+    row-gap: 2rem;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.card {
+    border: 1px solid rgba(252, 93, 93, 0.3);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05) , rgba(255, 255, 255 , 0.05));
+}
+
+.light .card {
+    border:  1px solid rgba(30, 32, 34, 0.3);
+}
+
+.card:hover {
+    border: 1px solid var(--blu);
+    rotate: 1deg;
+    scale: 1.02;
+    cursor: pointer;
+
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card .box {
+    padding: 1rem 0.4rem;
+}
+
+.card .box .title{
+    color: var(--ti);
+    text-transform: capitalize;
+}
+
+.card .box .sub-title{
+    color: var(--st);
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.card .box  .icons {
+    justify-content: space-between;
+}
+
+.card .icon-link, .card .icon-github {
+    font-size: 1.2rem;
+    color: var(--st);
+    margin-top: 0.6rem;
+}
+
+.card .icon-link:hover, .card .icon-github:hover {
+    color: var(--ico-h);
+}
+
+.card a.link{
+    font-size: 1rem;
+    color: var(--blu);
+    margin-top: 14px;
+    margin-right: 12px;
+}
+/*3-responsive */
+
+@media (max-width: 600px) {
+    main.flx {
+        flex-direction: column;
+        gap: 2.64rem;
+        align-items: center;
+    }
+
+    main section.left-sec.flx {
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section.left-sec.flx button {
+        width: 7rem;
+        padding: 0.8rem 0;
+        font-size: 0.9rem;
+        
+    }
+}

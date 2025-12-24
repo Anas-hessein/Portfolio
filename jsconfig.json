@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "jsx": "react-jsx",
+        "baseUrl": "src",
+        "resolveJsonModule": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "lib": ["es6", "dom", "es2017"],
+    },
+    "include": [
+        "src",
+        "vite-env.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}

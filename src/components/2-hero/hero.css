@@ -1,0 +1,75 @@
+/* ===================================
+     table of ocntent
+====================================
+
+1-left section
+2-right section
+*/
+
+
+section.hero{
+    margin-top: 3rem;
+}
+
+/* left section */
+
+section.hero .p-ava.flx{
+    align-items: end;
+    gap: 0.1rem;
+}
+
+
+section.hero .left-section  {
+    flex-grow: 1;
+}
+
+section.hero .ava {
+    width: 90px;
+    border: 2px solid rgba(255, 255, 255, 0.692);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.light section.hero .ava {
+    border: 2px solid rgba(61, 60, 60, 0.692);
+}
+
+section.hero .icon-verified {
+    color: var(--blu);
+    font-size:larger;
+    margin-bottom: 0.5rem;
+}
+
+section.hero h1.title {
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--ti);    
+}
+
+section.hero p.sub-title {
+    color: var(--st);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+section.hero .al-icons {
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--st);
+}
+
+section.hero .al-icons .icon:hover {
+    font-size: 1.4rem;
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--ico-h)
+}
+
+
+
+
+
+/* right section */
+

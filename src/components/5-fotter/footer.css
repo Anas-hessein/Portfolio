@@ -1,0 +1,31 @@
+footer.flx {
+    justify-content: space-between;
+    padding-bottom: 1.9rem;
+}
+
+footer.flx ul {
+    gap: 1rem;
+}
+
+footer.flx ul a {
+    color: var(--st);
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer.flx ul a:hover {
+    color: var(--blu);
+    font-size: 0.95rem;
+}
+
+footer.flx p {
+    color: rgb(113 113 122);
+}
+
+@media (max-width: 800px) {
+    footer.flx{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
