@@ -143,9 +143,9 @@ export const projects = [
     category: "react",
     imgPath: "/rct.png",
     description: "React portfolio. This is my first react web app. it has some errors and i will fix it in the future. it's the biggest project I have ever made.",
-    plyblePath: "https://anas-hessein.github.io/swirilice/",
-    gitPath: "https://github.com/Anas-hessein/swirilice",
-    readmePath:"https://github.com/Anas-hessein/swirilice/blob/main/README.md"
+    plyblePath: "https://anas-hessein.github.io/Portfolio/",
+    gitPath: "https://github.com/Anas-hessein/Portfolio/",
+    readmePath:"https://github.com/Anas-hessein/Portfolio/blob/main/README.md"
 
   },
 
